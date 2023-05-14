@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EFCoreCodeFirstSample.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
